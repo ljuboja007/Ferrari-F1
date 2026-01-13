@@ -420,7 +420,6 @@ header{
 
 .news-block{
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
@@ -648,7 +647,7 @@ header{
 }
 
 .newsletter-form input{
-    flex-grow: 1;        /* Input zauzima sav slobodan prostor */
+    flex-grow: 1;        
     padding: 15px;
     background-color: var(--dark-bg); 
     border: none;
